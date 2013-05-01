@@ -1,0 +1,291 @@
+THelloGLKit
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/anujkumar/Desktop/HelloGLKit/build/Debug-iphonesimulator/HelloGLKit.app/Info.plist HelloGLKit/HelloGLKit-Info.plist
+cProcessPCH /var/folders/4n/1yyt8zss6v93300s4v80f3wh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloGLKit-Prefix-cwmkvjltlpmvzohhtghlcshpivse/HelloGLKit-Prefix.pch.pth HelloGLKit/HelloGLKit-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/HelloGLKit.build/Debug-iphonesimulator/HelloGLKit.build/Objects-normal/i386/main.o /Users/anujkumar/Desktop/HelloGLKit/HelloGLKit/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/HelloGLKit.build/Debug-iphonesimulator/HelloGLKit.build/Objects-normal/i386/XYZAppDelegate.o /Users/anujkumar/Desktop/HelloGLKit/HelloGLKit/XYZAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/anujkumar/Desktop/HelloGLKit/build/Debug-iphonesimulator/HelloGLKit.app/HelloGLKit normal i386
+cGenerateDSYMFile /Users/anujkumar/Desktop/HelloGLKit/build/Debug-iphonesimulator/HelloGLKit.app.dSYM /Users/anujkumar/Desktop/HelloGLKit/build/Debug-iphonesimulator/HelloGLKit.app/HelloGLKit
+cCopyStringsFile /Users/anujkumar/Desktop/HelloGLKit/build/Debug-iphonesimulator/HelloGLKit.app/en.lproj/InfoPlist.strings HelloGLKit/en.lproj/InfoPlist.strings
+cCpResource HelloGLKit/Default.png build/Debug-iphonesimulator/HelloGLKit.app/Default.png
+cCpResource HelloGLKit/Default@2x.png build/Debug-iphonesimulator/HelloGLKit.app/Default@2x.png
+cCpResource HelloGLKit/Default-568h@2x.png build/Debug-iphonesimulator/HelloGLKit.app/Default-568h@2x.png
+cTouch /Users/anujkumar/Desktop/HelloGLKit/build/Debug-iphonesimulator/HelloGLKit.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk
+c00000000504916AD0000000000000110
+t1346967213
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c0000000050901F900000000000228FD0
+t1351622544
+s2265040
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c0000000050901F9D00000000003DCEF0
+t1351622557
+s4050672
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c0000000050901F9D00000000000015F7
+t1351622557
+s5623
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/GLKit.framework/GLKit
+c0000000050901FA60000000000058960
+t1351622566
+s362848
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+c0000000050901FBD0000000000015400
+t1351622589
+s87040
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c0000000050901FBF00000000001D57A0
+t1351622591
+s1922976
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c0000000050901FCA0000000000000E8D
+t1351622602
+s3725
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c0000000050901FCF0000000000AB3D60
+t1351622607
+s11222368
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/usr/include/Availability.h
+c00000000509020630000000000001B54
+t1351622755
+s6996
+
+N/Users/anujkumar/Desktop/HelloGLKit/HelloGLKit/Default-568h@2x.png
+c0000000050748B2300000000000048A2
+t1349815075
+s18594
+
+N/Users/anujkumar/Desktop/HelloGLKit/HelloGLKit/Default.png
+c0000000050748B23000000000000198C
+t1349815075
+s6540
+
+N/Users/anujkumar/Desktop/HelloGLKit/HelloGLKit/Default@2x.png
+c0000000050748B230000000000003EEB
+t1349815075
+s16107
+
+N/Users/anujkumar/Desktop/HelloGLKit/HelloGLKit/HelloGLKit-Prefix.pch
+c00000000517F6D4F0000000000000143
+t1367305551
+s323
+i<Availability.h>
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+
+N/Users/anujkumar/Desktop/HelloGLKit/HelloGLKit/XYZAppDelegate.h
+c00000000517F82CC0000000000000135
+t1367311052
+s309
+
+N/Users/anujkumar/Desktop/HelloGLKit/HelloGLKit/XYZAppDelegate.m
+c00000000517F82CC0000000000000A6D
+t1367311052
+s2669
+
+N/Users/anujkumar/Desktop/HelloGLKit/HelloGLKit/en.lproj/InfoPlist.strings
+c00000000517F6D4F000000000000002D
+t1367305551
+s45
+
+N/Users/anujkumar/Desktop/HelloGLKit/HelloGLKit/main.m
+c00000000517F6D4F0000000000000158
+t1367305551
+s344
+
+N/Users/anujkumar/Desktop/HelloGLKit/build/Debug-iphonesimulator/HelloGLKit.app
+t1367311052
+s306
+
+N/Users/anujkumar/Desktop/HelloGLKit/build/Debug-iphonesimulator/HelloGLKit.app.dSYM
+t1367311052
+s102
+
+N/Users/anujkumar/Desktop/HelloGLKit/build/Debug-iphonesimulator/HelloGLKit.app/Default-568h@2x.png
+t1367305564
+s18594
+
+N/Users/anujkumar/Desktop/HelloGLKit/build/Debug-iphonesimulator/HelloGLKit.app/Default.png
+t1367305564
+s6540
+
+N/Users/anujkumar/Desktop/HelloGLKit/build/Debug-iphonesimulator/HelloGLKit.app/Default@2x.png
+t1367305564
+s16107
+
+N/Users/anujkumar/Desktop/HelloGLKit/build/Debug-iphonesimulator/HelloGLKit.app/HelloGLKit
+t1367311052
+s21352
+
+N/Users/anujkumar/Desktop/HelloGLKit/build/Debug-iphonesimulator/HelloGLKit.app/Info.plist
+t1367305564
+s807
+
+N/Users/anujkumar/Desktop/HelloGLKit/build/Debug-iphonesimulator/HelloGLKit.app/PkgInfo
+t1367305564
+s8
+
+N/Users/anujkumar/Desktop/HelloGLKit/build/Debug-iphonesimulator/HelloGLKit.app/en.lproj/InfoPlist.strings
+t1367305564
+s42
+
+N/Users/anujkumar/Desktop/HelloGLKit/build/HelloGLKit.build/Debug-iphonesimulator/HelloGLKit.build/Objects-normal/i386/HelloGLKit.LinkFileList
+c00000000517F6D5C0000000000000104
+t1367305564
+s260
+
+N/Users/anujkumar/Desktop/HelloGLKit/build/HelloGLKit.build/Debug-iphonesimulator/HelloGLKit.build/Objects-normal/i386/XYZAppDelegate.o
+t1367311052
+s92400
+
+N/Users/anujkumar/Desktop/HelloGLKit/build/HelloGLKit.build/Debug-iphonesimulator/HelloGLKit.build/Objects-normal/i386/main.o
+t1367311052
+s3296
+
+N/var/folders/4n/1yyt8zss6v93300s4v80f3wh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloGLKit-Prefix-cwmkvjltlpmvzohhtghlcshpivse/HelloGLKit-Prefix.pch.pth
+t1367305564
+s4840452
+
+NHelloGLKit/HelloGLKit-Info.plist
+c00000000517F6D4F0000000000000493
+t1367305551
+s1171
+
+CBuild AST from /Users/anujkumar/Desktop/HelloGLKit/HelloGLKit/XYZAppDelegate.m
+r0
+
+CBuild AST from /Users/anujkumar/Desktop/HelloGLKit/HelloGLKit/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciese333bd82d230b741^9c69c682d230b741^---0#1#0#--18"Check dependencies36"16D29F1E-A2C0-499B-B715-AFE0A767F17A-
+
+CCompileC build/HelloGLKit.build/Debug-iphonesimulator/HelloGLKit.build/Objects-normal/i386/XYZAppDelegate.o /Users/anujkumar/Desktop/HelloGLKit/HelloGLKit/XYZAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s389003852.220852
+e389003852.346261
+r1
+xCompileC
+xbuild/HelloGLKit.build/Debug-iphonesimulator/HelloGLKit.build/Objects-normal/i386/XYZAppDelegate.o
+x/Users/anujkumar/Desktop/HelloGLKit/HelloGLKit/XYZAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Compile /Users/anujkumar/Desktop/HelloGLKit/HelloGLKit/XYZAppDelegate.m670e394cba2fb741^1aa8584cba2fb741^---0#0#0#-19%DVTDocumentLocation2@79"file://localhost/Users/anujkumar/Desktop/HelloGLKit/HelloGLKit/XYZAppDelegate.m0000000000000000^3584"CompileC build/HelloGLKit.build/Debug-iphonesimulator/HelloGLKit.build/Objects-normal/i386/XYZAppDelegate.o HelloGLKit/XYZAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/anujkumar/Desktop/HelloGLKit    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=6.0 -iquote /Users/anujkumar/Desktop/HelloGLKit/build/HelloGLKit.build/Debug-iphonesimulator/HelloGLKit.build/HelloGLKit-generated-files.hmap -I/Users/anujkumar/Desktop/HelloGLKit/build/HelloGLKit.build/Debug-iphonesimulator/HelloGLKit.build/HelloGLKit-own-target-headers.hmap -I/Users/anujkumar/Desktop/HelloGLKit/build/HelloGLKit.build/Debug-iphonesimulator/HelloGLKit.build/HelloGLKit-all-target-headers.hmap -iquote /Users/anujkumar/Desktop/HelloGLKit/build/HelloGLKit.build/Debug-iphonesimulator/HelloGLKit.build/HelloGLKit-project-headers.hmap -I/Users/anujkumar/Desktop/HelloGLKit/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/anujkumar/Desktop/HelloGLKit/build/HelloGLKit.build/Debug-iphonesimulator/HelloGLKit.build/DerivedSources/i386 -I/Users/anujkumar/Desktop/HelloGLKit/build/HelloGLKit.build/Debug-iphonesimulator/HelloGLKit.build/DerivedSources -F/Users/anujkumar/Desktop/HelloGLKit/build/Debug-iphonesimulator -include /var/folders/4n/1yyt8zss6v93300s4v80f3wh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloGLKit-Prefix-cwmkvjltlpmvzohhtghlcshpivse/HelloGLKit-Prefix.pch -MMD -MT dependencies -MF /Users/anujkumar/Desktop/HelloGLKit/build/HelloGLKit.build/Debug-iphonesimulator/HelloGLKit.build/Objects-normal/i386/XYZAppDelegate.d --serialize-diagnostics /Users/anujkumar/Desktop/HelloGLKit/build/HelloGLKit.build/Debug-iphonesimulator/HelloGLKit.build/Objects-normal/i386/XYZAppDelegate.dia -c /Users/anujkumar/Desktop/HelloGLKit/HelloGLKit/XYZAppDelegate.m -o /Users/anujkumar/Desktop/HelloGLKit/build/HelloGLKit.build/Debug-iphonesimulator/HelloGLKit.build/Objects-normal/i386/XYZAppDelegate.o36"C4782993-60FF-48E6-BC7A-1C3A22B3CCBB-
+
+CCompileC build/HelloGLKit.build/Debug-iphonesimulator/HelloGLKit.build/Objects-normal/i386/main.o /Users/anujkumar/Desktop/HelloGLKit/HelloGLKit/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s389003852.220696
+e389003852.312942
+r1
+xCompileC
+xbuild/HelloGLKit.build/Debug-iphonesimulator/HelloGLKit.build/Objects-normal/i386/main.o
+x/Users/anujkumar/Desktop/HelloGLKit/HelloGLKit/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Compile /Users/anujkumar/Desktop/HelloGLKit/HelloGLKit/main.mbf0d394cba2fb741^d61c504cba2fb741^---0#0#0#-19%DVTDocumentLocation2@69"file://localhost/Users/anujkumar/Desktop/HelloGLKit/HelloGLKit/main.m0000000000000000^3524"CompileC build/HelloGLKit.build/Debug-iphonesimulator/HelloGLKit.build/Objects-normal/i386/main.o HelloGLKit/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/anujkumar/Desktop/HelloGLKit    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=6.0 -iquote /Users/anujkumar/Desktop/HelloGLKit/build/HelloGLKit.build/Debug-iphonesimulator/HelloGLKit.build/HelloGLKit-generated-files.hmap -I/Users/anujkumar/Desktop/HelloGLKit/build/HelloGLKit.build/Debug-iphonesimulator/HelloGLKit.build/HelloGLKit-own-target-headers.hmap -I/Users/anujkumar/Desktop/HelloGLKit/build/HelloGLKit.build/Debug-iphonesimulator/HelloGLKit.build/HelloGLKit-all-target-headers.hmap -iquote /Users/anujkumar/Desktop/HelloGLKit/build/HelloGLKit.build/Debug-iphonesimulator/HelloGLKit.build/HelloGLKit-project-headers.hmap -I/Users/anujkumar/Desktop/HelloGLKit/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/anujkumar/Desktop/HelloGLKit/build/HelloGLKit.build/Debug-iphonesimulator/HelloGLKit.build/DerivedSources/i386 -I/Users/anujkumar/Desktop/HelloGLKit/build/HelloGLKit.build/Debug-iphonesimulator/HelloGLKit.build/DerivedSources -F/Users/anujkumar/Desktop/HelloGLKit/build/Debug-iphonesimulator -include /var/folders/4n/1yyt8zss6v93300s4v80f3wh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloGLKit-Prefix-cwmkvjltlpmvzohhtghlcshpivse/HelloGLKit-Prefix.pch -MMD -MT dependencies -MF /Users/anujkumar/Desktop/HelloGLKit/build/HelloGLKit.build/Debug-iphonesimulator/HelloGLKit.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/anujkumar/Desktop/HelloGLKit/build/HelloGLKit.build/Debug-iphonesimulator/HelloGLKit.build/Objects-normal/i386/main.dia -c /Users/anujkumar/Desktop/HelloGLKit/HelloGLKit/main.m -o /Users/anujkumar/Desktop/HelloGLKit/build/HelloGLKit.build/Debug-iphonesimulator/HelloGLKit.build/Objects-normal/i386/main.o36"94C380D5-D052-421C-9D18-4CFC4257BAD5-
+
+CCopyStringsFile /Users/anujkumar/Desktop/HelloGLKit/build/Debug-iphonesimulator/HelloGLKit.app/en.lproj/InfoPlist.strings HelloGLKit/en.lproj/InfoPlist.strings
+s388998364.610215
+e388998364.613886
+r1
+xCopyStringsFile
+x/Users/anujkumar/Desktop/HelloGLKit/build/Debug-iphonesimulator/HelloGLKit.app/en.lproj/InfoPlist.strings
+xHelloGLKit/en.lproj/InfoPlist.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection42"Copy HelloGLKit/en.lproj/InfoPlist.stringsed499cdca42fb741^8d289ddca42fb741^---0#0#0#-19%DVTDocumentLocation2@89"file://localhost/Users/anujkumar/Desktop/HelloGLKit/HelloGLKit/en.lproj/InfoPlist.strings0000000000000000^581"CopyStringsFile build/Debug-iphonesimulator/HelloGLKit.app/en.lproj/InfoPlist.strings HelloGLKit/en.lproj/InfoPlist.strings    cd /Users/anujkumar/Desktop/HelloGLKit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/anujkumar/Desktop/HelloGLKit/build/Debug-iphonesimulator/HelloGLKit.app/en.lproj -- HelloGLKit/en.lproj/InfoPlist.strings36"C7A8D020-2621-4FC1-AE3C-A055D937551D-
+
+CCpResource HelloGLKit/Default-568h@2x.png build/Debug-iphonesimulator/HelloGLKit.app/Default-568h@2x.png
+s388998364.610631
+e388998364.616813
+r1
+xCpResource
+xHelloGLKit/Default-568h@2x.png
+xbuild/Debug-iphonesimulator/HelloGLKit.app/Default-568h@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Copy build/Debug-iphonesimulator/HelloGLKit.app/Default-568h@2x.pngf65e9cdca42fb741^0ce89ddca42fb741^---0#0#0#-19%DVTDocumentLocation2@114"file://localhost/Users/anujkumar/Desktop/HelloGLKit/build/Debug-iphonesimulator/HelloGLKit.app/Default-568h@2x.png000000000080d041^607"CpResource "HelloGLKit/Default-568h@2x.png" "build/Debug-iphonesimulator/HelloGLKit.app/Default-568h@2x.png"    cd /Users/anujkumar/Desktop/HelloGLKit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/anujkumar/Desktop/HelloGLKit/HelloGLKit/Default-568h@2x.png" /Users/anujkumar/Desktop/HelloGLKit/build/Debug-iphonesimulator/HelloGLKit.app36"0E307C83-7696-4D5F-86ED-5F0F8CF3C750-
+
+CCpResource HelloGLKit/Default.png build/Debug-iphonesimulator/HelloGLKit.app/Default.png
+s388998364.610243
+e388998364.615373
+r1
+xCpResource
+xHelloGLKit/Default.png
+xbuild/Debug-iphonesimulator/HelloGLKit.app/Default.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Copy build/Debug-iphonesimulator/HelloGLKit.app/Default.pngae489cdca42fb741^018a9ddca42fb741^---0#0#0#-19%DVTDocumentLocation2@106"file://localhost/Users/anujkumar/Desktop/HelloGLKit/build/Debug-iphonesimulator/HelloGLKit.app/Default.png000000000080d041^577"CpResource HelloGLKit/Default.png build/Debug-iphonesimulator/HelloGLKit.app/Default.png    cd /Users/anujkumar/Desktop/HelloGLKit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/anujkumar/Desktop/HelloGLKit/HelloGLKit/Default.png /Users/anujkumar/Desktop/HelloGLKit/build/Debug-iphonesimulator/HelloGLKit.app36"383C4B04-DD20-4781-AF30-9D8321D7400D-
+
+CCpResource HelloGLKit/Default@2x.png build/Debug-iphonesimulator/HelloGLKit.app/Default@2x.png
+s388998364.610247
+e388998364.613916
+r1
+xCpResource
+xHelloGLKit/Default@2x.png
+xbuild/Debug-iphonesimulator/HelloGLKit.app/Default@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Copy build/Debug-iphonesimulator/HelloGLKit.app/Default@2x.pngbf489cdca42fb741^062c9ddca42fb741^---0#0#0#-19%DVTDocumentLocation2@109"file://localhost/Users/anujkumar/Desktop/HelloGLKit/build/Debug-iphonesimulator/HelloGLKit.app/Default@2x.png000000000080d041^592"CpResource "HelloGLKit/Default@2x.png" "build/Debug-iphonesimulator/HelloGLKit.app/Default@2x.png"    cd /Users/anujkumar/Desktop/HelloGLKit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/anujkumar/Desktop/HelloGLKit/HelloGLKit/Default@2x.png" /Users/anujkumar/Desktop/HelloGLKit/build/Debug-iphonesimulator/HelloGLKit.app36"4F119316-30CA-44FC-85F4-2630CDC25B2C-
+
+CGenerateDSYMFile /Users/anujkumar/Desktop/HelloGLKit/build/Debug-iphonesimulator/HelloGLKit.app.dSYM /Users/anujkumar/Desktop/HelloGLKit/build/Debug-iphonesimulator/HelloGLKit.app/HelloGLKit
+s389003852.381968
+e389003852.398549
+r1
+xGenerateDSYMFile
+x/Users/anujkumar/Desktop/HelloGLKit/build/Debug-iphonesimulator/HelloGLKit.app.dSYM
+x/Users/anujkumar/Desktop/HelloGLKit/build/Debug-iphonesimulator/HelloGLKit.app/HelloGLKit
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Generating /Users/anujkumar/Desktop/HelloGLKit/build/Debug-iphonesimulator/HelloGLKit.app.dSYMb6d8614cba2fb741^3e07664cba2fb741^---0#0#0#-19%DVTDocumentLocation2@100"file://localhost/Users/anujkumar/Desktop/HelloGLKit/build/Debug-iphonesimulator/HelloGLKit.app.dSYM/0000000000000000^634"GenerateDSYMFile build/Debug-iphonesimulator/HelloGLKit.app.dSYM build/Debug-iphonesimulator/HelloGLKit.app/HelloGLKit    cd /Users/anujkumar/Desktop/HelloGLKit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/anujkumar/Desktop/HelloGLKit/build/Debug-iphonesimulator/HelloGLKit.app/HelloGLKit -o /Users/anujkumar/Desktop/HelloGLKit/build/Debug-iphonesimulator/HelloGLKit.app.dSYM36"A879B30A-17EA-4FCD-8ED8-D48818BA300E-
+
+CLd /Users/anujkumar/Desktop/HelloGLKit/build/Debug-iphonesimulator/HelloGLKit.app/HelloGLKit normal i386
+s389003852.352929
+e389003852.375713
+r1
+xLd
+x/Users/anujkumar/Desktop/HelloGLKit/build/Debug-iphonesimulator/HelloGLKit.app/HelloGLKit
+xnormal
+xi386
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Link /Users/anujkumar/Desktop/HelloGLKit/build/Debug-iphonesimulator/HelloGLKit.app/HelloGLKita06c5a4cba2fb741^942f604cba2fb741^---0#0#0#--1212"Ld build/Debug-iphonesimulator/HelloGLKit.app/HelloGLKit normal i386    cd /Users/anujkumar/Desktop/HelloGLKit    setenv IPHONEOS_DEPLOYMENT_TARGET 6.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -L/Users/anujkumar/Desktop/HelloGLKit/build/Debug-iphonesimulator -F/Users/anujkumar/Desktop/HelloGLKit/build/Debug-iphonesimulator -filelist /Users/anujkumar/Desktop/HelloGLKit/build/HelloGLKit.build/Debug-iphonesimulator/HelloGLKit.build/Objects-normal/i386/HelloGLKit.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=6.0 -framework GLKit -framework OpenGLES -framework QuartzCore -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/anujkumar/Desktop/HelloGLKit/build/Debug-iphonesimulator/HelloGLKit.app/HelloGLKit36"16EA0073-4CD6-4CF9-994A-0814EFD79D7D-
+
+CProcessInfoPlistFile /Users/anujkumar/Desktop/HelloGLKit/build/Debug-iphonesimulator/HelloGLKit.app/Info.plist HelloGLKit/HelloGLKit-Info.plist
+s388998364.208238
+e388998364.211417
+r1
+xProcessInfoPlistFile
+x/Users/anujkumar/Desktop/HelloGLKit/build/Debug-iphonesimulator/HelloGLKit.app/Info.plist
+xHelloGLKit/HelloGLKit-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection40"Process HelloGLKit/HelloGLKit-Info.plist0b6135dca42fb741^582036dca42fb741^---0#0#0#-19%DVTDocumentLocation2@84"file://localhost/Users/anujkumar/Desktop/HelloGLKit/HelloGLKit/HelloGLKit-Info.plist0000000000000000^662"ProcessInfoPlistFile build/Debug-iphonesimulator/HelloGLKit.app/Info.plist HelloGLKit/HelloGLKit-Info.plist    cd /Users/anujkumar/Desktop/HelloGLKit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility HelloGLKit/HelloGLKit-Info.plist -genpkginfo /Users/anujkumar/Desktop/HelloGLKit/build/Debug-iphonesimulator/HelloGLKit.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/anujkumar/Desktop/HelloGLKit/build/Debug-iphonesimulator/HelloGLKit.app/Info.plist36"62539C1E-20C3-438F-AC9F-2A516E7132CC-
+
+CProcessPCH /Users/anujkumar/Library/Developer/Xcode/DerivedData/HelloGLKit-hgwfzszvtroofjdtbzejqixsnqnc/Index/PrecompiledHeaders/HelloGLKit-Prefix-bfscytglnxpuxmdnxvbwagytlqde_ast/HelloGLKit-Prefix.pch.pth HelloGLKit/HelloGLKit-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/4n/1yyt8zss6v93300s4v80f3wh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloGLKit-Prefix-cwmkvjltlpmvzohhtghlcshpivse/HelloGLKit-Prefix.pch.pth HelloGLKit/HelloGLKit-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s388998364.220097
+e388998364.430348
+r1
+xProcessPCH
+x/var/folders/4n/1yyt8zss6v93300s4v80f3wh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloGLKit-Prefix-cwmkvjltlpmvzohhtghlcshpivse/HelloGLKit-Prefix.pch.pth
+xHelloGLKit/HelloGLKit-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Precompile HelloGLKit/HelloGLKit-Prefix.pchd57538dca42fb741^732d6edca42fb741^---0#0#0#-19%DVTDocumentLocation2@84"file://localhost/Users/anujkumar/Desktop/HelloGLKit/HelloGLKit/HelloGLKit-Prefix.pch0000000000000000^3591"ProcessPCH /var/folders/4n/1yyt8zss6v93300s4v80f3wh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloGLKit-Prefix-cwmkvjltlpmvzohhtghlcshpivse/HelloGLKit-Prefix.pch.pth HelloGLKit/HelloGLKit-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/anujkumar/Desktop/HelloGLKit    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=6.0 -iquote /Users/anujkumar/Desktop/HelloGLKit/build/HelloGLKit.build/Debug-iphonesimulator/HelloGLKit.build/HelloGLKit-generated-files.hmap -I/Users/anujkumar/Desktop/HelloGLKit/build/HelloGLKit.build/Debug-iphonesimulator/HelloGLKit.build/HelloGLKit-own-target-headers.hmap -I/Users/anujkumar/Desktop/HelloGLKit/build/HelloGLKit.build/Debug-iphonesimulator/HelloGLKit.build/HelloGLKit-all-target-headers.hmap -iquote /Users/anujkumar/Desktop/HelloGLKit/build/HelloGLKit.build/Debug-iphonesimulator/HelloGLKit.build/HelloGLKit-project-headers.hmap -I/Users/anujkumar/Desktop/HelloGLKit/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/anujkumar/Desktop/HelloGLKit/build/HelloGLKit.build/Debug-iphonesimulator/HelloGLKit.build/DerivedSources/i386 -I/Users/anujkumar/Desktop/HelloGLKit/build/HelloGLKit.build/Debug-iphonesimulator/HelloGLKit.build/DerivedSources -F/Users/anujkumar/Desktop/HelloGLKit/build/Debug-iphonesimulator --serialize-diagnostics /var/folders/4n/1yyt8zss6v93300s4v80f3wh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloGLKit-Prefix-cwmkvjltlpmvzohhtghlcshpivse/HelloGLKit-Prefix.pch.dia -c /Users/anujkumar/Desktop/HelloGLKit/HelloGLKit/HelloGLKit-Prefix.pch -o /var/folders/4n/1yyt8zss6v93300s4v80f3wh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloGLKit-Prefix-cwmkvjltlpmvzohhtghlcshpivse/HelloGLKit-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/4n/1yyt8zss6v93300s4v80f3wh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloGLKit-Prefix-cwmkvjltlpmvzohhtghlcshpivse/HelloGLKit-Prefix.pch.d36"905E71F9-5914-401A-B5DB-7D2373EDA906-
+
+CTouch /Users/anujkumar/Desktop/HelloGLKit/build/Debug-iphonesimulator/HelloGLKit.app
+s389003852.428161
+e389003852.432332
+r1
+xTouch
+x/Users/anujkumar/Desktop/HelloGLKit/build/Debug-iphonesimulator/HelloGLKit.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Touch /Users/anujkumar/Desktop/HelloGLKit/build/Debug-iphonesimulator/HelloGLKit.appa4aa6d4cba2fb741^5dc16e4cba2fb741^---0#0#0#--388"Touch build/Debug-iphonesimulator/HelloGLKit.app    cd /Users/anujkumar/Desktop/HelloGLKit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/anujkumar/Desktop/HelloGLKit/build/Debug-iphonesimulator/HelloGLKit.app36"D9948ADE-A196-4F62-A7F1-696C904F32AA-
+

@@ -1,0 +1,294 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF96FBBD172FA4CF002AD81A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF96FBBC172FA4CF002AD81A /* UIKit.framework */; };
+		EF96FBBF172FA4CF002AD81A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF96FBBE172FA4CF002AD81A /* Foundation.framework */; };
+		EF96FBC1172FA4CF002AD81A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF96FBC0172FA4CF002AD81A /* CoreGraphics.framework */; };
+		EF96FBC7172FA4CF002AD81A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EF96FBC5172FA4CF002AD81A /* InfoPlist.strings */; };
+		EF96FBC9172FA4CF002AD81A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF96FBC8172FA4CF002AD81A /* main.m */; };
+		EF96FBCD172FA4CF002AD81A /* XYZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF96FBCC172FA4CF002AD81A /* XYZAppDelegate.m */; };
+		EF96FBCF172FA4CF002AD81A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = EF96FBCE172FA4CF002AD81A /* Default.png */; };
+		EF96FBD1172FA4CF002AD81A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF96FBD0172FA4CF002AD81A /* Default@2x.png */; };
+		EF96FBD3172FA4CF002AD81A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF96FBD2172FA4CF002AD81A /* Default-568h@2x.png */; };
+		EF96FBDA172FAFCB002AD81A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF96FBD9172FAFCB002AD81A /* QuartzCore.framework */; };
+		EF96FBDC172FAFDC002AD81A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF96FBDB172FAFDC002AD81A /* OpenGLES.framework */; };
+		EF96FBDE172FAFE7002AD81A /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF96FBDD172FAFE7002AD81A /* GLKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EF96FBB8172FA4CF002AD81A /* HelloGLKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloGLKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF96FBBC172FA4CF002AD81A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EF96FBBE172FA4CF002AD81A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EF96FBC0172FA4CF002AD81A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EF96FBC4172FA4CF002AD81A /* HelloGLKit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloGLKit-Info.plist"; sourceTree = "<group>"; };
+		EF96FBC6172FA4CF002AD81A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EF96FBC8172FA4CF002AD81A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF96FBCA172FA4CF002AD81A /* HelloGLKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloGLKit-Prefix.pch"; sourceTree = "<group>"; };
+		EF96FBCB172FA4CF002AD81A /* XYZAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYZAppDelegate.h; sourceTree = "<group>"; };
+		EF96FBCC172FA4CF002AD81A /* XYZAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYZAppDelegate.m; sourceTree = "<group>"; };
+		EF96FBCE172FA4CF002AD81A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		EF96FBD0172FA4CF002AD81A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		EF96FBD2172FA4CF002AD81A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		EF96FBD9172FAFCB002AD81A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		EF96FBDB172FAFDC002AD81A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		EF96FBDD172FAFE7002AD81A /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF96FBB5172FA4CF002AD81A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF96FBDE172FAFE7002AD81A /* GLKit.framework in Frameworks */,
+				EF96FBDC172FAFDC002AD81A /* OpenGLES.framework in Frameworks */,
+				EF96FBDA172FAFCB002AD81A /* QuartzCore.framework in Frameworks */,
+				EF96FBBD172FA4CF002AD81A /* UIKit.framework in Frameworks */,
+				EF96FBBF172FA4CF002AD81A /* Foundation.framework in Frameworks */,
+				EF96FBC1172FA4CF002AD81A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF96FBAD172FA4CF002AD81A = {
+			isa = PBXGroup;
+			children = (
+				EF96FBDD172FAFE7002AD81A /* GLKit.framework */,
+				EF96FBDB172FAFDC002AD81A /* OpenGLES.framework */,
+				EF96FBD9172FAFCB002AD81A /* QuartzCore.framework */,
+				EF96FBC2172FA4CF002AD81A /* HelloGLKit */,
+				EF96FBBB172FA4CF002AD81A /* Frameworks */,
+				EF96FBB9172FA4CF002AD81A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF96FBB9172FA4CF002AD81A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF96FBB8172FA4CF002AD81A /* HelloGLKit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF96FBBB172FA4CF002AD81A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF96FBBC172FA4CF002AD81A /* UIKit.framework */,
+				EF96FBBE172FA4CF002AD81A /* Foundation.framework */,
+				EF96FBC0172FA4CF002AD81A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF96FBC2172FA4CF002AD81A /* HelloGLKit */ = {
+			isa = PBXGroup;
+			children = (
+				EF96FBCB172FA4CF002AD81A /* XYZAppDelegate.h */,
+				EF96FBCC172FA4CF002AD81A /* XYZAppDelegate.m */,
+				EF96FBC3172FA4CF002AD81A /* Supporting Files */,
+			);
+			path = HelloGLKit;
+			sourceTree = "<group>";
+		};
+		EF96FBC3172FA4CF002AD81A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF96FBC4172FA4CF002AD81A /* HelloGLKit-Info.plist */,
+				EF96FBC5172FA4CF002AD81A /* InfoPlist.strings */,
+				EF96FBC8172FA4CF002AD81A /* main.m */,
+				EF96FBCA172FA4CF002AD81A /* HelloGLKit-Prefix.pch */,
+				EF96FBCE172FA4CF002AD81A /* Default.png */,
+				EF96FBD0172FA4CF002AD81A /* Default@2x.png */,
+				EF96FBD2172FA4CF002AD81A /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF96FBB7172FA4CF002AD81A /* HelloGLKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF96FBD6172FA4CF002AD81A /* Build configuration list for PBXNativeTarget "HelloGLKit" */;
+			buildPhases = (
+				EF96FBB4172FA4CF002AD81A /* Sources */,
+				EF96FBB5172FA4CF002AD81A /* Frameworks */,
+				EF96FBB6172FA4CF002AD81A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloGLKit;
+			productName = HelloGLKit;
+			productReference = EF96FBB8172FA4CF002AD81A /* HelloGLKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF96FBAF172FA4CF002AD81A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = XYZ;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Anuj Kumar";
+			};
+			buildConfigurationList = EF96FBB2172FA4CF002AD81A /* Build configuration list for PBXProject "HelloGLKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EF96FBAD172FA4CF002AD81A;
+			productRefGroup = EF96FBB9172FA4CF002AD81A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF96FBB7172FA4CF002AD81A /* HelloGLKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF96FBB6172FA4CF002AD81A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF96FBC7172FA4CF002AD81A /* InfoPlist.strings in Resources */,
+				EF96FBCF172FA4CF002AD81A /* Default.png in Resources */,
+				EF96FBD1172FA4CF002AD81A /* Default@2x.png in Resources */,
+				EF96FBD3172FA4CF002AD81A /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF96FBB4172FA4CF002AD81A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF96FBC9172FA4CF002AD81A /* main.m in Sources */,
+				EF96FBCD172FA4CF002AD81A /* XYZAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EF96FBC5172FA4CF002AD81A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF96FBC6172FA4CF002AD81A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF96FBD4172FA4CF002AD81A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EF96FBD5172FA4CF002AD81A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF96FBD7172FA4CF002AD81A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloGLKit/HelloGLKit-Prefix.pch";
+				INFOPLIST_FILE = "HelloGLKit/HelloGLKit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EF96FBD8172FA4CF002AD81A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloGLKit/HelloGLKit-Prefix.pch";
+				INFOPLIST_FILE = "HelloGLKit/HelloGLKit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF96FBB2172FA4CF002AD81A /* Build configuration list for PBXProject "HelloGLKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF96FBD4172FA4CF002AD81A /* Debug */,
+				EF96FBD5172FA4CF002AD81A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF96FBD6172FA4CF002AD81A /* Build configuration list for PBXNativeTarget "HelloGLKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF96FBD7172FA4CF002AD81A /* Debug */,
+				EF96FBD8172FA4CF002AD81A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF96FBAF172FA4CF002AD81A /* Project object */;
+}
