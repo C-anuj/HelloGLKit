@@ -7,19 +7,37 @@
 //
 
 #import "XYZAppDelegate.h"
+#import <QuartzCore/QuartzCore.h>
 
 
 @interface XYZAppDelegate() <GLKViewDelegate>
 
 @end
 
-@implementation XYZAppDelegate
+@implementation XYZAppDelegate {
+    float _curRed;
+    BOOL _increasing;
+}
 
 
 #pragma mark GLKViewDelegate
 
 - (void) glkView:(GLKView *)view drawInRect:(CGRect)rect {
-    glClearColor(0.0, 0.41, 0.22, 1.0);
+    if(_increasing) {
+        _curRed += 0.01;
+    } else {
+        _curRed -= 0.01;
+    }
+    if(_curRed >= 1.0) {
+        _curRed = 1.0;
+        _increasing = NO;
+    }
+    if(_curRed <= 0.0) {
+        _curRed = 0.0;
+        _increasing = YES;
+    }
+    
+    glClearColor(_curRed, 0.41, 0.22, 1.0);
     glClear(GL_COLOR_BUFFER_BIT);
 }
 
@@ -35,7 +53,17 @@
     
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    _increasing = YES;
+    _curRed = 0.0;
+    view.enableSetNeedsDisplay = NO;
+    CADisplayLink* displayLink = [CADisplayLink displayLinkWithTarget:self selector:@selector(render:)];
+    [displayLink addToRunLoop:[NSRunLoop currentRunLoop] forMode:NSDefaultRunLoopMode];
     return YES;
+}
+
+- (void)render:(CADisplayLink*)displayLink {
+    GLKView * view = [self.window.subviews objectAtIndex:0];
+    [view display];
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application
