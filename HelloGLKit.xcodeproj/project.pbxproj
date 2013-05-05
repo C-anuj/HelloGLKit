@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		751043101735BA42008BF917 /* MainStoryBoard_1.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7510430F1735BA42008BF917 /* MainStoryBoard_1.storyboard */; };
+		7550329E1735BE0A004E0792 /* MainStoryBoard_1.storyboard in Sources */ = {isa = PBXBuildFile; fileRef = 7510430F1735BA42008BF917 /* MainStoryBoard_1.storyboard */; };
+		75E54E5A173590D000363E5F /* HelloGLKitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E54E59173590D000363E5F /* HelloGLKitViewController.m */; };
 		EF96FBBD172FA4CF002AD81A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF96FBBC172FA4CF002AD81A /* UIKit.framework */; };
 		EF96FBBF172FA4CF002AD81A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF96FBBE172FA4CF002AD81A /* Foundation.framework */; };
 		EF96FBC1172FA4CF002AD81A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF96FBC0172FA4CF002AD81A /* CoreGraphics.framework */; };
@@ -22,6 +25,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7510430F1735BA42008BF917 /* MainStoryBoard_1.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = MainStoryBoard_1.storyboard; path = ../MainStoryBoard_1.storyboard; sourceTree = "<group>"; };
+		75E54E58173590D000363E5F /* HelloGLKitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloGLKitViewController.h; sourceTree = "<group>"; };
+		75E54E59173590D000363E5F /* HelloGLKitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelloGLKitViewController.m; sourceTree = "<group>"; };
 		EF96FBB8172FA4CF002AD81A /* HelloGLKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloGLKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF96FBBC172FA4CF002AD81A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		EF96FBBE172FA4CF002AD81A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -92,6 +98,8 @@
 			children = (
 				EF96FBCB172FA4CF002AD81A /* XYZAppDelegate.h */,
 				EF96FBCC172FA4CF002AD81A /* XYZAppDelegate.m */,
+				75E54E58173590D000363E5F /* HelloGLKitViewController.h */,
+				75E54E59173590D000363E5F /* HelloGLKitViewController.m */,
 				EF96FBC3172FA4CF002AD81A /* Supporting Files */,
 			);
 			path = HelloGLKit;
@@ -106,6 +114,7 @@
 				EF96FBCA172FA4CF002AD81A /* HelloGLKit-Prefix.pch */,
 				EF96FBCE172FA4CF002AD81A /* Default.png */,
 				EF96FBD0172FA4CF002AD81A /* Default@2x.png */,
+				7510430F1735BA42008BF917 /* MainStoryBoard_1.storyboard */,
 				EF96FBD2172FA4CF002AD81A /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
@@ -167,6 +176,7 @@
 				EF96FBCF172FA4CF002AD81A /* Default.png in Resources */,
 				EF96FBD1172FA4CF002AD81A /* Default@2x.png in Resources */,
 				EF96FBD3172FA4CF002AD81A /* Default-568h@2x.png in Resources */,
+				751043101735BA42008BF917 /* MainStoryBoard_1.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,8 +187,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7550329E1735BE0A004E0792 /* MainStoryBoard_1.storyboard in Sources */,
 				EF96FBC9172FA4CF002AD81A /* main.m in Sources */,
 				EF96FBCD172FA4CF002AD81A /* XYZAppDelegate.m in Sources */,
+				75E54E5A173590D000363E5F /* HelloGLKitViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +299,7 @@
 				EF96FBD8172FA4CF002AD81A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
